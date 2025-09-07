@@ -28,7 +28,7 @@ responses = {
 # process user input
 if ask_btn:
     if user_input.strip() == "":
-        st.write("🤖 Chatbot: Please type a question first.")
+        st.write("Chatbot: Please type a question first.")
     else:
         found = False
         for keyword, answer in responses.items():
@@ -46,7 +46,8 @@ for speaker, text in st.session_state.history:
     if speaker == "You":
         st.markdown(f"**You:** {text}")
     else:
-        st.markdown(f"**🤖 Chatbot:** {text}")
+        st.markdown(f"**Chatbot:** {text}")
         
+
 
 
