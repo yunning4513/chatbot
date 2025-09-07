@@ -1,7 +1,7 @@
 import streamlit as st
 
 # page title
-st.title("🎓 University Chatbot")
+st.title("University Chatbot")
 
 #initialize conversation history
 if "history" not in st.session_state:
@@ -48,6 +48,7 @@ for speaker, text in st.session_state.history:
     else:
         st.markdown(f"**Chatbot:** {text}")
         
+
 
 
 
