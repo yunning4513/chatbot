@@ -26,7 +26,7 @@ responses = {
 }
 
 # process user input
-if ask_button:
+if ask_btn:
     if user_input.strip() == "":
         st.write("🤖 Chatbot: Please type a question first.")
     else:
@@ -48,4 +48,5 @@ for speaker, text in st.session_state.history:
     else:
         st.markdown(f"**🤖 Chatbot:** {text}")
         
+
 
