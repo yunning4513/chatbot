@@ -17,7 +17,7 @@ responses = {
     "exam": "You can register for exams through the student portal.",
     "canteen": "The canteen serves affordable meals from 10am to 8pm.",
     "sports": "Our university offers basketball, badminton, and swimming facilities.",
-    "hostel": "The hostel application is available in the housing office."
+    "hostel": "The hostel application is available in the housing office.",
     "clubs": "We have many student clubs like coding, drama, and music.",
     "bus": "Campus buses run every 15 minutes from 7am to 10pm.",
     "wifi": "Free Wi-Fi is available in all classrooms and public areas.",
@@ -48,3 +48,4 @@ for speaker, text in st.session_state.history:
     else:
         st.markdown(f"**🤖 Chatbot:** {text}")
         
+
